@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tìm kiếm</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <style>
+      @media screen and (max-width: 768px){
+      .head{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+        background-color: #f4f4f4;
+
+      }
+      i{
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        color: #172B4D
+      }
+    
+      input{
+        display: none;
+      }
+      img{
+        width: 60px;
+        height: 60px;
+      }
+      .hright{
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .hright i{
+        border-radius: 50%;
+        background-color: #E2E3E8;
+        width: 25px;
+        height: 25px;
+        
+      }
+      .hleft{
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+      }
+      .hleft i{
+        border-radius: 50%;
+        background-color: white;
+        width: 25px;
+        height: 25px;
+      }
+    }
+    @media screen and (min-width: 768px)
+    {
+      .head {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+        background-color: #f4f4f4;
+      }
+      i{
+        color:#172B4D
+      }
+      img{
+        width: 60px;
+        height: 60px;
+      }
+      .hright{
+        padding: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 95%;
+      }
+      .hleft{
+        display: flex;
+        width: 5%;
+        padding: 10px;
+      }
+      .hleft i{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: white;
+        text-align: center;
+      }
+      .right1{
+        background-color:#E2E3E8;
+        border-radius: 30px;
+        width: 200px;
+        padding: 10px;
+      }
+      input{
+        outline: none;
+        border: none;
+        background-color: #E2E3E8;
+        justify-content: center;
+      }
+
+    }
+    @media screen and (min-width: 1024x)
+    {
+      .head {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+        background-color: #f4f4f4;
+      }
+      i{
+        color:#172B4D
+      }
+      img{
+        width: 70px;
+        height: 70px;
+      }
+      .hright{
+        padding: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 95%;
+      }
+      .hleft{
+        display: flex;
+        width: 5%;
+        padding: 10px;
+      }
+      .hleft i{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: white;
+        text-align: center;
+      }
+      .right1{
+        background-color: #E2E3E8;
+        border-radius: 30px;
+        width: 300px;
+        padding: 10px;
+      }
+      input{
+        outline: none;
+        border: none;
+        background-color: #E2E3E8;
+        justify-content: center;
+      }
+    }
+    </style>
+</head>
+<body>
+  <div class="head">
+    <div class="hright">
+        <div class="right1">
+          <i class="fa fa-search"></i>
+          <input style="color: #172B4D" type="text" placeholder="Search">
+        </div>
+        <div class="right2">
+            <img src="Image/logo.png" alt="">
+        </div>
+    </div>
+    <div class="hleft">
+      <i class="i_user fa fa-user"></i>
+    </div>
+  </div>
+</body>
+</html>
